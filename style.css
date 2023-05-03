@@ -1,0 +1,161 @@
+body {
+    font-family: 'Oswald', sans-serif;
+}
+
+section {
+    position: relative;
+    height: 500px;
+    width: 100%;
+}
+
+.content {
+    width: 100%;
+    position: absolute;
+    left: 0;
+    top: 0;
+}
+
+.top-container {
+    color: white;
+    background: #6C534E;
+    margin: 0;
+}
+
+.top-container nav {
+    position: relative;
+    display: flex;
+    justify-content: space-between;
+}
+
+.top-container nav ul {
+    display: flex;
+    list-style-type: none;
+}
+
+.top-container nav ul a {
+    text-decoration: none;
+    color: white;
+}
+
+.top-container nav ul li {
+    font-family: 'Montserrat', sans-serif;
+    margin: 10px;
+    text-decoration: none;
+}
+
+.basic-info {
+    position: relative;
+    align-items: center;
+    justify-content: space-between;
+    display: flex;
+    height: 405px;
+    margin-left: 30px;
+}
+
+.info h3 {
+    margin: 0;
+}
+
+.basic-info h4 {
+    margin: 0;
+}
+
+.basic-info h2 {
+    margin: 0;
+    font-size: 40px;
+}
+
+.me {
+    width: 75px;
+    height: 90px;
+    border-radius: 50%;
+}
+
+.about-me {
+    background-color: white;
+    height: auto;
+    display: inline;
+}
+
+.about-me h1 {
+    margin: 0;   
+}
+
+.projects {
+    background-color: #2C1A1D;
+    height: auto;
+}
+
+.projects .top {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+.projects .proj {
+    display: flex;
+    justify-content: space-around;
+}
+
+.proj {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+@media (max-width: 700px) {
+    .proj {
+        display: flex;
+        flex-direction: column;
+        justify-content: center;
+    }
+}
+
+.project {
+    width: 150px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    border-radius: 5px;
+    margin: 10px;
+}
+
+.project a {
+    color: #2C1A1D;
+    text-decoration: none;
+    border: 1px solid black;
+    background: #ffffff;
+    padding: 0 10px;
+    border-radius: 5px;
+    margin-bottom: 5px;
+}
+
+.project h1 {
+    height: 100px;
+}
+
+.projects .top h1 {
+    color: white;
+}
+
+footer {
+    position: relative;
+    background-color: black;
+    width: 100%;
+    height: 150px;
+    color: white;
+}
+
+footer h2 {
+    margin: 0;
+}
+
+.links {
+    position: absolute;
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+    justify-content: space-around;
+    bottom: 0;
+}
